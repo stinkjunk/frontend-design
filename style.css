@@ -7,9 +7,9 @@ article {
   h2 {
     --flow-space: 2rlh;
   }
-  h3 { /*Første element efter h3!*/
+  h3 { 
     --flow-space: 1rlh;
-    & + * {
+    & + * { /*Første element efter h3!*/
       --flow-space: 0.25rlh;
     } 
   }
