@@ -1,7 +1,8 @@
 /* Dine styles her */
 article {
   > * + * { /*Alle direkte børn!*/
-    margin-top: var(--flow-space, 0.5rlh);
+    margin-block-start: var(--flow-space, 0.5rlh);
+    /*margin-block-start: "In writing modes that are left-to-right or right-to-left—such as English or Arabic—the margin is added to the top of the element."*/
   }
   h2 {
     --flow-space: 2rlh;
